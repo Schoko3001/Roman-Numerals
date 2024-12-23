@@ -20,7 +20,7 @@ char* intToRoman(int num) {
                 case 3: array[c++] = s[i2];
                 case 2: array[c++] = s[i2];
                 case 1: array[c++] = s[i2];
-                break;}
+                        break;}
         }
         else
         {
@@ -32,7 +32,7 @@ char* intToRoman(int num) {
                 case 7: array[c++] = s[i2];
                 case 6: array[c++] = s[i2];
                 case 5: array[c++] = s[i2+1];
-                break;}
+                        break;}
         }
     }
 
